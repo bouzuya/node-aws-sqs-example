@@ -1,0 +1,28 @@
+{
+  "name": "node-aws-sqs-example",
+  "version": "0.1.0",
+  "description": "aws-sqs example for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/node-aws-sqs-example.git"
+  },
+  "author": "bouzuya",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bouzuya/node-aws-sqs-example/issues"
+  },
+  "homepage": "https://github.com/bouzuya/node-aws-sqs-example",
+  "dependencies": {
+    "aws-sdk": "~2.0.0-rc4",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.16.1"
+  }
+}
